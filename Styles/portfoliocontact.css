@@ -84,6 +84,7 @@ h1{
 }
 label{
     display: block;
+    color: white;
 }
 input{
     border: none;
