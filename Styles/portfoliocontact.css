@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #191919;
+}
+.contact{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 3rem;
+    padding-left: 10px;
+    height: 700px;
+}
+.contact-text h4{
+    margin: 35px 0;
+    color: #f9004d;
+    font-size: 20px;
+    font-weight: 600;
+
+}
+.contact-text h2{
+    font-size: 30px;
+}
+.contact-text p{
+    color: #f9004d;
+    font-size: var(--p-font) ;
+    line-height: 30px;
+    margin-bottom: 1rem;
+}
+.contact-list{
+    margin-bottom: 10px;
+}
+.contact-list li{
+    margin-bottom: 10px;
+    display: block;
+}
+.contact-list a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    transition: all .40s ease;
+}
+.contact-list li a:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: #c4134be5;
+}
+.let{
+    font-size: 10px;
+}
+#gg{
+    color: white;
+}
+.contact-icons i{
+    height: 40px;
+    width: 40px;
+    background: #12141c;
+    border-radius: 0.5rem;
+    color: #f9004d;
+    display: inline-flex;
+    align-items: center;
+    font-size: 18px;
+    margin-right: 10px;
+    transition: all .40s ease;
+    text-decoration: none;
+}
+.contact-icons  i:hover{
+    transform: scale(1.01) translateY(-5px);
+    color: white;
+    background-color: #f9004d;
+}
+.contact-icons li{
+    align-items: center;
+    text-decoration: none;
+}
+.contact-form{
+    position: relative;
+}
+h1{
+    color: #f9004d;
+}
+label{
+    display: block;
+}
+input{
+    border: none;
+    outline: none;
+    width: 70%;
+    height: 20px;
+    padding: 18px;
+    background: #12141c;
+    color: #f9004d;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    
+}
+textarea{
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 18px;
+    background: #12141c;
+    color: #f9004d;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    border-radius: 0.5rem;
+    resize: none;
+    height: 220px;
+}
+button{
+    display: inline-block;
+    border-radius: 30px;
+    font-size: 17px;
+    font-weight: 500;
+    background: #f9004d;
+    color: #12141c;
+    width: 190px;
+    transition: all .40s ease;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #12141c;
+    color: #f9004d;
+  }

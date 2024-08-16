@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="Styles/portfoliocontact.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)"   href="Styles/contacttablet">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="Styles/contactphone.css">
+</head>
+<body>
+    <section class="contact">
+        <div class="contact-text">
+            <h2 id="gg">Contact Me</h2>
+            <h4 class="let">Let's Work Together</h4>
+            <p>These Are my details below you can contact me through these</p>
+            <div class="contact-list">
+                <li><a href="#">Ibadan - Oyo State - Nigeria</a></li>
+                <li><a href="#">shortbutmighty80@gmail.com</a></li>
+                <li><a href="#">08065755610</a></li>
+
+            </div>
+        </div>
+        <div class="contact-form">
+            <h1>Please Fill in your Details</h1>
+            <form action="https://formspree.io/f/xqazlldn" method="POST">
+                <label>
+                    Your name:
+                    <input type="name" name="name" required>
+                </label></br>
+                <label>
+                    Your email:
+                    <input type="email" name="email" required>
+                </label></br>
+                <label>
+                    Your phone number:
+                    <input type="number" name="number" required>
+                </label></br>
+                <label>
+                    Your message:
+                    <textarea name="message" required></textarea>
+                </label>
+                <!-- your other form fields go here -->
+                <button type="submit">Send</button>
+            </form>
+        </div>
+    </section>
+</body>
+</html>

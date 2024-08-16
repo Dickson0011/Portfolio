@@ -1,0 +1,10 @@
+.box{
+    flex-direction: column;
+}
+.main{
+    flex-direction: column;
+    width: 100%;
+}
+.title h2{
+    width: 20%;
+}
